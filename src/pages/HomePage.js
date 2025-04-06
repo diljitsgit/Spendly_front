@@ -17,6 +17,7 @@ import {
   Psychology,
   AccountBalance
 } from '@mui/icons-material';
+import dashboardPreview from '../assets/dashboard-preview.png';
 
 const FeatureCard = ({ icon, title, description }) => {
   const theme = useTheme();
@@ -153,38 +154,22 @@ const HomePage = () => {
                   justifyContent: 'center'
                 }}
               >
-                {/* Placeholder for hero image or graphic */}
+                {/* Dashboard preview image */}
                 <Box 
+                  component="img"
+                  src={dashboardPreview}
+                  alt="Spendly Dashboard Preview"
                   sx={{ 
                     width: '100%',
-                    height: '400px',
-                    backgroundColor: 'background.paper',
+                    maxWidth: '600px',
+                    height: 'auto',
                     borderRadius: '24px',
                     boxShadow: theme.palette.mode === 'dark' 
                       ? '0 8px 32px rgba(0, 0, 0, 0.3)' 
                       : '0 8px 32px rgba(0, 0, 0, 0.1)',
                     overflow: 'hidden',
-                    position: 'relative'
                   }}
-                >
-                  <Box 
-                    sx={{ 
-                      position: 'absolute',
-                      top: 0,
-                      left: 0,
-                      width: '100%',
-                      height: '100%',
-                      background: 'linear-gradient(45deg, rgba(0, 200, 83, 0.3), rgba(255, 61, 0, 0.3))',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center'
-                    }}
-                  >
-                    <Typography variant="h4" fontWeight="bold">
-                      Dashboard Preview
-                    </Typography>
-                  </Box>
-                </Box>
+                />
               </Box>
             </Grid>
           </Grid>
