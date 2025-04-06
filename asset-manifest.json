@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Spendify_front/static/css/main.c209cf89.css",
+    "main.js": "/Spendify_front/static/js/main.d7736b58.js",
+    "static/js/453.d855a71b.chunk.js": "/Spendify_front/static/js/453.d855a71b.chunk.js",
+    "static/media/dashboard-preview.png": "/Spendify_front/static/media/dashboard-preview.ef212d31f2b3cb456cb3.png",
+    "index.html": "/Spendify_front/index.html",
+    "main.c209cf89.css.map": "/Spendify_front/static/css/main.c209cf89.css.map",
+    "main.d7736b58.js.map": "/Spendify_front/static/js/main.d7736b58.js.map",
+    "453.d855a71b.chunk.js.map": "/Spendify_front/static/js/453.d855a71b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c209cf89.css",
+    "static/js/main.d7736b58.js"
+  ]
+}
